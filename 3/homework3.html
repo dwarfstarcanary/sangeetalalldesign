@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Homework 3 </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="classthree.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Meow+Script&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik+Mono+One">
+    
+</head>
+
+<body>
+    <header>
+        <a href="..\homepage.html"> <img id="logo" src="..\astrostar.png"></a>
+    </header>
+
+    <div class="buttons-center">
+        <div class="button">
+            <a href="..\about.html"> About </a>
+            <a href="..\homework.html"> Assignments </a>
+            <a href="..\designs.html"> Designs </a>
+            <a href="..\films.html"> Films </a>
+            <a href="..\contact.html"> Contact </a>
+        </div>
+    </div>
+
+    <div class="main-hub">
+        <h1> Homework 3.0 </h1>
+    
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="concert1.jpeg" style="width:50%">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="concert2.jpeg" style="width:50%">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="concert3.jpeg" style="width:50%">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="nyc1.jpeg" style="width:50%">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="nyc2.jpeg" style="width:50%">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="nyc3.jpeg" style="width:50%">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="nyc4.jpeg" style="width:50%">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="nyc5.jpeg" style="width:50%">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="disney1.jpeg" style="width:50%">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="disney2.jpeg" style="width:50%">
+            </div>
+        </div>
+            <br>
+        
+            <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            </div>
+        
+            <script>
+                let slideIndex = 0;
+                showSlides();
+            
+                function showSlides() {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+                </script>
+
+
+
+
+</div>
+</body>
+</html>

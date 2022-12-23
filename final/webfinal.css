@@ -1,0 +1,144 @@
+header {    
+    height: 100px;
+    width: auto;
+}
+
+/* astrostar */
+#logo {
+    width: 5%;
+    padding: 25px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', monospace;
+    background-image: linear-gradient(to right, #004AAD, #82D4FF, #85E5D7);
+
+}
+
+.button a {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-inline: 50px;
+    width: 200px;height:50 px;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: normal!important;
+    text-decoration: none;
+    font-family: 'Nunito', monospace;
+    font-size: 15pt;
+    color: #000;
+    -webkit-touch-callout: none;-webkit-user-select: none;-ms-user-select: none;user-select: none;
+    }
+
+.buttons-center {
+    display: flex;
+    justify-content: center;
+    @media only screen and (min-width: 1080px) @media only screen and (max-width: 760px)
+     padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin: auto;
+}
+
+.main-hub {
+    display: block;
+    font-size: 14pt;
+    line-height: 30pt;
+    width: 1200px;
+    height: fit-content;
+    background-color: #0d0d0d;
+    border-radius: 50px;
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    color: white;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    
+}
+
+@media only screen and (max-width: 760px) {
+    .main-hub { width: 50%; height: 50%;}
+}
+
+
+h1 {
+    color: #82D4FF;
+    font-family: 'Nunito', monospace;
+    text-align: left;
+    font-size: 35pt;
+    text-align: center;
+}
+
+h2 {
+    color: #004AAD;
+    font-family: 'Nunito', monospace;
+    text-align: left;
+    font-size: 25pt;
+    padding: 25px;
+}
+
+#me {
+    display: block;
+    float: left;
+    margin: 0 75px 0 0 ;
+    width: 30%;
+    padding: 25px;
+    
+}
+
+.description {
+    margin: 50px;
+    color: white;
+    line-height: 30pt;
+    text-align: start;
+    font-size: 14pt;
+    height: 200px;
+    padding: 100px;
+    
+}
+
+.dawn {
+    height: 400px;
+}
+
+#dawn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.game {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main-hub { width: 50%; height: 50%;}
+}
+
+@media only screen and (max-width: 600px) {
+    img { width: 50%;}
+}
+
+@media only screen and (max-width: 760px) {
+    h1 h2 { width: 50%; height: 50%;}
+}
+

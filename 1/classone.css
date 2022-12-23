@@ -1,0 +1,154 @@
+
+
+.row1 {
+    align-items: center;
+}
+
+.catear {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-inline: 20px;
+    width: 20px; height: 80px;
+    border-radius: 25px;
+    background-color: #fe96b9;
+    padding-top: 10px;
+    line-height: normal!important;
+    padding-left: 100px;
+    font-size: 50px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image:url(../stars.png);
+    font-family: 'Space Mono', monospace;
+    
+}
+
+header {
+    
+    height: 100px;
+    width: auto;
+}
+
+#logo {
+    width: 10%;
+    padding: 25px;
+}
+
+footer {
+    height: 150px;
+    width: auto;
+    margin: auto;
+    padding: 0;
+}
+
+#icons {
+    width: 2%;
+    
+}
+
+
+#me {
+    display: block;
+    float: left;
+    margin: 0 75px 0 0 ;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Space Mono', monospace;
+    font-size: 14pt;
+    
+}
+
+
+
+.button a {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-inline: 50px;
+    width: 200px;height:50 px;
+    margin-bottom:50px; 
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: normal!important;
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    font-size: 15pt;
+    color: #000;
+    -webkit-touch-callout: none;-webkit-user-select: none;-ms-user-select: none;user-select: none;
+    }
+
+
+
+
+.buttons-center {
+    display: flex;
+    justify-content: center;
+    @media only screen and (min-width: 1080px) @media only screen and (max-width: 760px)
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin: auto;
+}
+
+
+
+.title {
+    font-family: 'Space Mono', monospace;
+    font-size: 25pt;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.description {
+    margin: 50px;
+    color: #5CE1E6;
+    font-family: 'Space Mono', monospace;
+    line-height: 30pt;
+    text-align: start;
+    font-size: 14pt;
+    
+}
+
+
+.main-hub {
+    display: block;
+    font-size: 14pt;
+    line-height: 30pt;
+    width: 1500px;
+    height: fit-content;
+    background-color: black;
+    border-radius: 50px;
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    color: #5CE1E6;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #CF206B;
+    font-family: 'Rubik Mono One', monospace;
+    text-align: left;
+    font-size: 35pt;
+}
+
+

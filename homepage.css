@@ -1,0 +1,500 @@
+/* -------------------------------------------------------Header -------------------------------------------------------*/
+    header {    
+        height: 100px;
+        width: auto;
+    }
+
+    /* astrostar */
+    #logo {
+        width: 10%;
+        padding: 25px;
+        
+        
+    }
+
+
+    /* navigation */
+    .button a {
+        display: inline-flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-inline: 50px;
+        width: 200px;height:50 px;
+        margin-bottom:50px; 
+        border-radius: 25px;
+        background-color: white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: normal!important;
+        text-decoration: none;
+        font-family: 'Space Mono', monospace;
+        font-size: 15pt;
+        color: #000;
+        -webkit-touch-callout: none;-webkit-user-select: none;-ms-user-select: none;user-select: none;
+        animation-name: example2;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        transition: color .3s ease-in-out.3s ease-in-out ;
+        }
+
+
+        
+        .button a:hover {
+            box-shadow: inset 200px white;
+            transform: scale(0.75);
+            animation: reverse;
+        }
+
+
+
+    .buttons-center {
+        display: flex;
+        justify-content: center;
+        @media only screen and (min-width: 1080px) @media only screen and (max-width: 760px)
+        padding-bottom: 25px;
+        padding-right: 25px;
+        padding-left: 25px;
+        margin: auto;
+    }
+
+/*--------------------------------------------------------body general-----------------------------------------*/
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url(stars.png);
+        font-family: 'Space Mono', monospace;
+        
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Space Mono', monospace;
+        font-size: 14pt;
+        
+    }
+
+    #gitlink {
+        color: white;
+    }
+
+    .title {
+        font-family: 'Space Mono', monospace;
+        font-size: 25pt;
+        margin: auto;
+        text-align: center;
+        
+    }
+
+    .description {
+        margin: 50px;
+        color: #5CE1E6;
+        font-family: 'Space Mono', monospace;
+        line-height: 30pt;
+        text-align: start;
+        font-size: 14pt;
+        
+    }
+
+    h1 {
+    color: #CF206B;
+    font-family: 'Rubik Mono One', monospace;
+    text-align: left;
+    font-size: 35pt;
+
+    }
+
+    .main-hub {
+        display: block;
+        font-size: 14pt;
+        line-height: 30pt;
+        width: 1200px;
+        height: 500px;
+        background-color: black;
+        border-radius: 50px;
+        padding-top: 25px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+        justify-content: center;
+        border-style: solid;
+        border-color: white;
+        border-width: 10px;
+        color: #5CE1E6;
+        margin: auto;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    
+        }
+
+    #day_test_button {
+        display: inline-flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-inline: 50px;
+        width: 200px;height:50 px;
+        margin-bottom:50px; 
+        border-radius: 25px;
+        background-color: white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: normal!important;
+        text-decoration: none;
+        font-family: 'Space Mono', monospace;
+        font-size: 15pt;
+        color: #000;
+    }
+
+    #wireframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding: 20px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      /* Create four equal columns that sits next to each other */
+      .column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 40px;
+      }
+      
+      .column img {
+        margin-top: 10px;
+        vertical-align: middle;
+        width: 100%;
+      }
+      
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+
+/*--------------------------------------------------------------------------about -------------------------------------------*/
+
+    #me {
+        display: block;
+        float: left;
+        margin: 0 75px 0 0 ;
+        
+    }
+
+/*----------------------------------------------------------------------assignments---------------------------------------- */
+        
+    .flex-container{
+        height: fit-content;
+        display: flexbox;
+        width: 1000px;
+        font-size: 14pt;
+        line-height: 30pt;
+        background-color: black;
+        border-radius: 50px;
+        padding-top: 25px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+        justify-content: center;
+        border-style: solid;
+        border-color: white;
+        border-width: 10px;
+        color: #5CE1E6;
+        margin: auto;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+    
+    .homework {
+        height: fit-content;
+        flex: 1;
+        font-size: 14pt;
+        line-height: 30pt;
+        background-color: black;
+        border-radius: 50px;
+        justify-content: center;
+        border-style: solid;
+        border-color: white;
+        border-width: 10px;
+        color: #5CE1E6;
+        margin: auto;
+    }
+
+    .classwork {
+        height: fit-content;
+        flex: 1;
+        font-size: 14pt;
+        line-height: 30pt;
+        background-color: black;
+        border-radius: 50px;
+        justify-content: center;
+        border-style: solid;
+        border-color: white;
+        border-width: 10px;
+        color: #5CE1E6;
+        margin: auto;
+
+    }
+
+   .button-2 a {
+        display: inline-flex;
+        justify-content: center;
+        margin-inline: 50px;
+        margin-top: 50px;
+        width: 210px; height:50px;
+        margin-bottom:50px; 
+        border-radius: 200px;
+        background-color: #5CE1E6;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: normal!important;
+        text-decoration: none;
+        font-family: 'Space Mono', monospace;
+        font-size: 15pt;
+        color: #000;
+        -webkit-touch-callout: none;-webkit-user-select: none;-ms-user-select: none;user-select: none;
+        }
+
+        .button-2 a:active {
+            transform: scale(1.5);
+            
+            }
+/*--------------------------------------------------------------------designs----------------------------------------- */
+
+        .designs {
+            display: block;
+            font-size: 14pt;
+            line-height: 30pt;
+            width: 1000px;
+            height: fit-content;
+            background-color: black;
+            border-radius: 50px;
+            padding-top: 25px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-bottom: 100px;
+            justify-content: center;
+            border-style: solid;
+            border-color: white;
+            border-width: 10px;
+            color: #5CE1E6;
+            margin: auto;
+            margin-bottom: 100px;
+            margin-top: 50px;
+        }
+
+        #midterm {
+            width: 50%;
+        }
+
+/*----------------------------------------------------------------------films----------------------------------------------- */
+
+.film-showcase{
+    height: fit-content;
+    display: flexbox;
+    width: 1000px;
+    font-size: 14pt;
+    line-height: 30pt;
+    background-color: black;
+    border-radius: 50px;
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    color: #5CE1E6;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+    
+
+/* -------------------------------------------------------------------Footer---------------------------------------------- */
+
+    footer {
+        height: 150px;
+        width: auto;
+        margin: auto;
+        padding: 0;
+    }
+
+    #icons {
+        width: 25%;
+        
+    }
+
+
+    .button-social a {
+        display: inline-flex;
+        justify-content: center;
+        margin-top: 50px;
+        width: 200px;
+        margin-bottom:50px; 
+        border-radius: 25px;
+        background-color: none;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: normal!important;
+        text-decoration: none;
+        font-family: 'Space Mono', monospace;
+        font-size: 15pt;
+        color: #000;
+        -webkit-touch-callout: none;-webkit-user-select: none;-ms-user-select: none;user-select: none;
+        }
+
+/*-------------------------------------------------------------- responsive --------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+    .main-hub { width: 50%; height: 50%;}
+}
+
+@media only screen and (max-width: 600px) {
+    img { width: 50%; height: 50%;}
+}
+
+@media only screen and (max-width: 760px) {
+    h1 { width: 50%; height: 50%;}
+}
+
+@media only screen and (max-width: 500px) {
+    .flex-container { width: 50%; height: 50%;}
+}
+
+
+
+/*-------------------------------------------------------------- responsive --------------------------------------------------*/
+
+
+@keyframes example2 {
+    0%   {background-color:#82D4FF; left:-100px; top:0px;}
+    25%  {background-color:#BA7CE0; left:-200px; top:0px;}
+    50%  {background-color:#FFDE8B; left:-200px; top:200px;}
+    75%  {background-color:#CF206B; left:0px; top:200px;}
+    100% {background-color:#FE96B9; left:0px; top:0px;}
+    }
+    
+
+
+/* The animation code */
+@keyframes example3 {
+0%   {background-color:#82D4FF; left:-100px; top:0px;}
+25%  {background-color:#BA7CE0; left:-200px; top:0px;}
+50%  {background-color:#FFDE8B; left:-200px; top:200px;}
+75%  {background-color:#CF206B; left:0px; top:200px;}
+100% {background-color:#FE96B9; left:0px; top:0px;}
+}
+
+/* The element to apply the animation to */
+.box3 {
+width: 50px;
+height: 20px;
+margin: auto;
+position: relative;
+background-color: #CF206B; 
+animation-name: example3;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+.box4 {
+width: 100px;
+height: 10px;
+margin-top: auto;
+margin-left: 100px;
+position: relative;
+background-color: #CF206B; 
+animation-name: example3;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+.box5 {
+    width: 200px;
+    height: 20px;
+    margin-right: 20px;
+    position: relative;
+    float: right;
+    background-color: #CF206B; 
+    animation-name: example3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    }
+
+    .box6 {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        position: relative;
+        float: right;
+        background-color: #CF206B; 
+        animation-name: example3;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        }
+    
+        .box7 {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+             position: relative;
+            float: left;
+            background-color: #CF206B; 
+            animation-name: example3;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            }
+        
+            .box8 {
+                width: 300px;
+                height: 30px;
+                margin: 10px;
+                position: relative;
+                float: left;
+                background-color: #CF206B; 
+                animation-name: example3;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                }
+    
+
+                @keyframes example4 {
+                    0%   {right:-100px; top:0px;}
+                    25%  {right: -400px; top:100px}   
+                    50%  { right:-200px; top:200px;}
+                    75%    { right:-600px; top:400px;}
+                    100% { right:0px; top:0px;}
+                    }
+                    
+                    /* The element to apply the animation to */
+                    .box9:active {
+                    margin: auto;
+                    width: 50%;
+                    position: relative;
+                    animation-name: example4;
+                    animation-duration: 5s;
+                    animation-iteration-count: infinite;
+                    }
+                    

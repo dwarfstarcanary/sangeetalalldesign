@@ -1,0 +1,70 @@
+body {
+    background-image: url(stars.png);
+    font-family: 'Space Mono', monospace;
+    
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    height:50%;
+    width: 50%;
+    animation: infinite;
+}
+
+@keyframes img {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+
+
+
+h1 {
+    font-family: 'Commando';
+}
+
+
+@keyframes example2 {
+    0%   {background-color:#82D4FF; left:-100px; top:0px;}
+    25%  {background-color:#BA7CE0; left:-200px; top:0px;}
+    50%  {background-color:#FFDE8B; left:-200px; top:200px;}
+    75%  {background-color:#CF206B; left:0px; top:200px;}
+    100% {background-color:#FE96B9; left:0px; top:0px;}
+    }
+    
+
+
+/* The animation code */
+@keyframes example3 {
+0%   {left:10px; top:0px;}
+25%  {left:20px; top:0px;}
+50%  { left:20px; top:200px;}
+75%  {left:0px; top:200px;}
+100% { left:0px; top:0px;}
+}
+
+/* The element to apply the animation to */
+.box:active {
+margin: auto;
+position: relative;
+background-color: #CF206B; 
+animation-name: example3;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+
+
+    
+
+ 
+
+  
